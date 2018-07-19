@@ -22,6 +22,23 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    compress: true,
+    quiet: false,
+    noInfo: false,
+    stats: {
+      assets: false,
+      children: false,
+      chunks: false,
+      chunkModules: false,
+      colors: true,
+      entrypoints: false,
+      hash: false,
+      modules: false,
+      timings: false,
+      version: false
+    }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
