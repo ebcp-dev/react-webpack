@@ -1,4 +1,16 @@
 # react-webpack
+
 A Webpack 5 setup for React and Typescript.
 
-Created by following this guide: https://www.carlrippon.com/creating-react-app-with-typescript-eslint-with-webpack5/
+## Created with:
+
+Guide by Carl Rippon: https://www.carlrippon.com/creating-react-app-with-typescript-eslint-with-webpack5/
+
+- React
+- Redux
+- Axios
+  - AJAX requests to the Resumer API
+- React Router
+  - Client side routing
+- jwt-decode
+  - Decoding JSON Web Tokens
