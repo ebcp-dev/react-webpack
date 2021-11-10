@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-  return <h1>My React and TypeScript App!</h1>;
-};
+import App from './routes/App';
 
 ReactDOM.render(
   <React.StrictMode>
