@@ -14,3 +14,8 @@ Guide by Carl Rippon: https://www.carlrippon.com/creating-react-app-with-typescr
   - Client side routing
 - jwt-decode
   - Decoding JSON Web Tokens
+
+## Todos:
+
+- Finish setting up Redux.
+- Set up authentication solution in new branch.

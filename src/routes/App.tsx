@@ -6,7 +6,7 @@ import Route1 from './route1/Route1';
 import SubRoute1 from './route1/subroute1/SubRoute1';
 import NotFound from './notfound/NotFound';
 
-import './App.css';
+import './App.scss';
 
 class App extends React.Component {
   render() {

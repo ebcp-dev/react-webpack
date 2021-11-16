@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
-import './Route1.css';
+import './Route1.scss';
 
 class Route1 extends React.Component {
   render() {
