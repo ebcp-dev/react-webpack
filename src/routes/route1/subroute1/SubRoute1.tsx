@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './SubRoute1.css';
+import './SubRoute1.scss';
 
 class SubRoute1 extends React.Component {
   render() {

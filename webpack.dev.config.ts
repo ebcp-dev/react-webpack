@@ -1,5 +1,5 @@
 import path from 'path';
-import { Configuration, HotModuleReplacementPlugin } from 'webpack';
+import { Configuration } from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import ESLintPlugin from 'eslint-webpack-plugin';
@@ -25,6 +25,10 @@ const config: Configuration = {
             ]
           }
         }
+      },
+      {
+        test: /\.(s(a|c)ss)$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
@@ -35,7 +39,6 @@ const config: Configuration = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new HotModuleReplacementPlugin(),
     new ForkTsCheckerWebpackPlugin({
       async: false
     }),
@@ -47,9 +50,15 @@ const config: Configuration = {
   devServer: {
     static: path.join(__dirname, 'build'),
     historyApiFallback: true,
+    hot: true,
     port: 5000,
-    open: true,
-    hot: true
+    open: false,
+    client: {
+      progress: false
+    }
+  },
+  stats: {
+    all: false
   }
 };
 
