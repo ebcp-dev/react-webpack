@@ -1,6 +1,6 @@
 # react-webpack template
 
-A Webpack 5 setup for React and Typescript.
+A Webpack 5 template for React and Typescript.
 
 ## Created with:
 
