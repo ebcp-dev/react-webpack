@@ -1,4 +1,4 @@
-# react-webpack
+# react-webpack template
 
 A Webpack 5 setup for React and Typescript.
 
@@ -6,12 +6,15 @@ A Webpack 5 setup for React and Typescript.
 
 Guide by Carl Rippon: https://www.carlrippon.com/creating-react-app-with-typescript-eslint-with-webpack5/
 
+Jest and React Testing Library: https://www.carlrippon.com/using-jest-and-rtl-with-react-typescript/
+
 - React
 - Redux
-- SASS
 - react-router
-- Jest
+- SASS
 - eslint
+- Jest
+- React Testing Library
 
 ## Todos:
 
