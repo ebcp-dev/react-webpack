@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-import Home from './home/Home';
-import Route1 from './route1/Route1';
-import SubRoute1 from './route1/subroute1/SubRoute1';
-import NotFound from './notfound/NotFound';
+import Home from './Home/Home';
+import Route1 from './Route1/Route1';
+import SubRoute1 from './Route1/SubRoute1/SubRoute1';
+import NotFound from './NotFound/NotFound';
 
 import './App.scss';
 
