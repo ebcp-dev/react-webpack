@@ -1,4 +1,4 @@
-# react-webpack
+# react-webpack template
 
 A Webpack 5 setup for React and Typescript.
 
@@ -6,16 +6,17 @@ A Webpack 5 setup for React and Typescript.
 
 Guide by Carl Rippon: https://www.carlrippon.com/creating-react-app-with-typescript-eslint-with-webpack5/
 
+Jest and React Testing Library: https://www.carlrippon.com/using-jest-and-rtl-with-react-typescript/
+
 - React
 - Redux
-- Axios
-  - AJAX requests to the Resumer API
-- React Router
-  - Client side routing
-- jwt-decode
-  - Decoding JSON Web Tokens
+- react-router
+- SASS
+- eslint
+- Jest
+- React Testing Library
 
 ## Todos:
 
 - Finish setting up Redux.
-- Set up authentication solution in new branch.
+- Write tests.
