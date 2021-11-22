@@ -10,6 +10,7 @@ Jest and React Testing Library: https://www.carlrippon.com/using-jest-and-rtl-wi
 
 - React
 - Redux
+  - Redux Toolkit
 - react-router
 - SASS
 - eslint
