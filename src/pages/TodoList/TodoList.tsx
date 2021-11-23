@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../app/store';
 
 import CustomButton from '../../components/CustomButton/CustomButton';
+import CustomTextInput from '../../components/CustomTextInput/CustomTextInput';
 import Todo from './components/Todo/Todo';
 
 import './TodoList.scss';
@@ -36,9 +37,7 @@ const TodoList = () => {
     <section className="todoList-section">
       <div className="todoList-container">
         <h1>Todo List Home</h1>
-        <input
-          className="todoInput"
-          type="text"
+        <CustomTextInput
           name="todoInput"
           placeholder="Add a task"
           value={todoInput}
