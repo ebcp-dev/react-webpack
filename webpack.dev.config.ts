@@ -7,7 +7,7 @@ import ESLintPlugin from 'eslint-webpack-plugin';
 const config: Configuration = {
   mode: 'development',
   output: {
-    publicPath: '/'
+    publicPath: 'auto'
   },
   entry: './src/index.tsx',
   module: {
