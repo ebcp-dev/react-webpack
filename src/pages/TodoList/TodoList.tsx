@@ -30,6 +30,7 @@ const TodoList = () => {
   const todoList = useSelector((state: RootState) => state.todoList.value);
 
   const renderTodoList = todoList.map((item, index) => {
+    // Change key to unique value. List index shouldn't be used as unique key because multiple lists could result in duplicate indexes.
     return <Todo todoName={item} todoIndex={index} key={index} />;
   });
 
